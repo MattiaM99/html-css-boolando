@@ -12,9 +12,10 @@ body{
   margin: 0 auto;
 }
 
-.slot-1{
+.slot{
   position: relative;
-  display: inline-block;
+  float: left;
+  display:inline-block;
   margin: 1%;
   background-size: contain; 
   background-repeat: no-repeat;
@@ -30,7 +31,7 @@ body{
   display: none;
 }
 
-.slot-1 .sconto{
+.slot .sconto{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -40,7 +41,7 @@ body{
   padding: 5px;
 }
 
-.slot-1 .sostenibilita{
+.slot .sostenibilita{
   position: absolute;
   bottom: 0;
   left: 17%;
@@ -50,7 +51,7 @@ body{
   padding: 5px;
 }
 
-.slot-1 .preferiti{
+.slot .preferiti{
   position: absolute;
   top:0;
   right: 0;
@@ -61,8 +62,9 @@ body{
   text-align: center;
 }
 
-.slot-1-caption{
+.slot-caption{
   margin-left: 1%;
+  width: 100%;
 }
 
 h4{
@@ -83,14 +85,14 @@ h5{
   color: black;
 }
 
-.slot-1:hover{
+.slot:hover{
   cursor: pointer;
 }
 
-.slot-1:hover .foto{
+.slot:hover .foto{
   display: none;
 }
 
-.slot-1:hover .foto-2{
+.slot:hover .foto-2{
   display: block;
 }
