@@ -7,19 +7,21 @@
 body{
   font-family:sans-serif
 }
+
+
 .container{
   width: 95%;
   margin: 0 auto;
 }
 
+
 .slot{
   position: relative;
   float: left;
-  display:inline-block;
   margin: 1%;
   background-size: contain; 
   background-repeat: no-repeat;
-  width: 20%; 
+  width: 31%; 
 }
 
 .foto{
@@ -31,9 +33,14 @@ body{
   display: none;
 }
 
-.slot .sconto{
+.foto, .foto-2 {
+  width: 100%;
+}
+
+.slot-image .sconto{
   position: absolute;
-  bottom: 0;
+  display: inline-block;
+  bottom: 55px;
   left: 0;
   margin-bottom: 5%;
   color: white;
@@ -41,9 +48,9 @@ body{
   padding: 5px;
 }
 
-.slot .sostenibilita{
+.slot-image .sostenibilita{
   position: absolute;
-  bottom: 0;
+  bottom: 55px;
   left: 17%;
   margin-bottom: 5%;
   color: white;
@@ -51,7 +58,7 @@ body{
   padding: 5px;
 }
 
-.slot .preferiti{
+.slot-image .preferiti{
   position: absolute;
   top:0;
   right: 0;
@@ -62,9 +69,8 @@ body{
   text-align: center;
 }
 
-.slot-caption{
+.slot{
   margin-left: 1%;
-  width: 100%;
 }
 
 h4{
