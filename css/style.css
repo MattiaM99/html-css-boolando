@@ -8,6 +8,11 @@ body{
   font-family:sans-serif
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .container{
   width: 95%;
