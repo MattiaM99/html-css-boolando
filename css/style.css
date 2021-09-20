@@ -12,10 +12,6 @@ body{
   margin: 0 auto;
 }
 
-.row{
-  
-}
-
 .slot-1{
   position: relative;
   display: inline-block;
@@ -28,6 +24,10 @@ body{
 .foto{
   width: 100%;
   height: auto;
+}
+.foto-2{
+  width: 100%;
+  display: none;
 }
 
 .slot-1 .sconto{
@@ -61,3 +61,36 @@ body{
   text-align: center;
 }
 
+.slot-1-caption{
+  margin-left: 1%;
+}
+
+h4{
+  color: grey;
+  font-size: 12px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+h5{
+  color: red;
+}
+
+.prezzo-originale{
+  text-decoration: line-through;
+  color: black;
+}
+
+.slot-1:hover{
+  cursor: pointer;
+}
+
+.slot-1:hover .foto{
+  display: none;
+}
+
+.slot-1:hover .foto-2{
+  display: block;
+}
