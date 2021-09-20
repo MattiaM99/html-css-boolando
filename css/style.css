@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:sans-serif
+}
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.row{
+  
+}
+
+.slot-1{
+  position: relative;
+  display: inline-block;
+  margin: 1%;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  width: 25%; 
+}
+
+.foto{
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
+.slot-1 .sconto{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 3%;
+  color: white;
+  background-color: red;
+  padding: 5px;
+}
+
+.slot-1 .sostenibilita{
+  position: absolute;
+  bottom: 0;
+  left: 17%;
+  margin-bottom: 3%;
+  color: white;
+  background-color: green;
+  padding: 5px;
+}
+
+.alot-1 .preferiti{
+  position: absolute;
+  right: 0;
+  margin-top: 1%;
+  background-color: white;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+}
+
